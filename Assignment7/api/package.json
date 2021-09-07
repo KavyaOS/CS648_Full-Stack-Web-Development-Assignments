@@ -1,0 +1,41 @@
+{
+  "name": "assignment7-api",
+  "version": "1.0.0",
+  "description": "Inventory Management System - API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -w . -w .env server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavyaOS/CS648_Assignment7.git"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "react",
+    "forms"
+  ],
+  "author": "Kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KavyaOS/CS648_Assignment7/issues"
+  },
+  "homepage": "https://github.com/KavyaOS/CS648_Assignment7#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
